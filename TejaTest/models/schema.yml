@@ -1,0 +1,36 @@
+
+version: 2
+
+models:
+  - name: location
+    description: "The location dimension model"
+    columns:
+      - name: location
+        description: "The primary key for this table"
+  - name: location_timezone
+    description: "The location_timezone dimension model"
+    columns:
+      - name: location_timezone
+        description: "The primary key for this table is location"
+  - name: location_iso_code
+    description: "The location_iso_code dimension model"
+    columns:
+      - name: location_iso_code
+        description: "The primary key for this table is location_iso_code"
+  - name: gps_coordinates
+    description: "The gps_coordinates dimension model"
+    columns:
+      - name: gps_coordinates
+        description: "The primary key for this table is location"
+  - name: location_special_status
+    description: "The location_special_status dimension model"
+    columns:
+      - name: location_special_status
+        description: "The primary key for this table is location"
+  - name: location_level
+    description: "The location_level dimension model"
+    columns:
+      - name: location_level
+        description: "The primary key for this table is location"
+
+

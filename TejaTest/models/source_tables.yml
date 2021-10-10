@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: google_sheets_src
+    description: "The google sheets src database"
+    database: FIVETRAN_INTERVIEW_DB
+    schema: GOOGLE_SHEETS
+    tables:
+      - name: COVID_19_INDONESIA_teja_kandula
